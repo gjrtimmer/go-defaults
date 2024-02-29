@@ -1,4 +1,4 @@
-go-defaults [![Build Status](https://img.shields.io/github/workflow/status/mcuadros/go-defaults/Test.svg)](https://github.com/mcuadros/go-defaults/actions) [![GoDoc](http://godoc.org/github.com/mcuadros/go-defaults?status.png)](https://pkg.go.dev/github.com/mcuadros/go-defaults) [![GitHub release](https://img.shields.io/github/release/mcuadros/go-defaults.svg)](https://github.com/mcuadros/go-defaults/releases)
+go-defaults [![Build Status](https://img.shields.io/github/workflow/status/gjrtimmer/go-defaults/Test.svg)](https://github.com/gjrtimmer/go-defaults/actions) [![GoDoc](http://godoc.org/github.com/gjrtimmer/go-defaults?status.png)](https://pkg.go.dev/github.com/gjrtimmer/go-defaults) [![GitHub release](https://img.shields.io/github/release/gjrtimmer/go-defaults.svg)](https://github.com/gjrtimmer/go-defaults/releases)
 ==============================
 
 Enabling stuctures with defaults values using [struct tags](http://golang.org/pkg/reflect/#StructTag).
@@ -9,7 +9,7 @@ Installation
 The recommended way to install go-defaults
 
 ```
-go get github.com/mcuadros/go-defaults
+go get github.com/gjrtimmer/go-defaults
 ```
 
 Examples
@@ -20,7 +20,7 @@ A basic example:
 ```go
 import (
     "fmt"
-    "github.com/mcuadros/go-defaults"
+    "github.com/gjrtimmer/go-defaults"
     "time"
 )
 

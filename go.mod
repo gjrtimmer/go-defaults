@@ -1,4 +1,4 @@
-module github.com/mcuadros/go-defaults
+module github.com/gjrtimmer/go-defaults
 
 go 1.14
 
